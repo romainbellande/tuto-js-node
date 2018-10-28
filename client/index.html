@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+</head>
+<body class="container">
+  <section>
+    <div class="todo-container">
+      <input id="input-todo" type="text" class="form-control" placeholder="a new todo" />
+      <button id="submit" type="button" class="btn btn-primary" >submit</button>
+      <button id="sort" type="button" class="btn btn-primary" >sort by value (asc)</button>
+    </div>
+    <div class="todo-search-container">
+      <input id="input-search" type="text" class="form-control" placeholder="search"/>
+    </div>
+    <ul id="todo-list"></ul>
+  </section>
+  <section>
+    <h2>Dynamic data</h2>
+    <div class="dynamic-todo-form">
+      <input id="input-dynamic-todo" type="text" class="form-control" placeholder="a new todo" />
+      <button id="submit-dynamic-todo" type="button" class="btn btn-primary" >submit</button>
+    </div>
+    <ul id="dynamic-todo-list" class="class="list-group></ul>
+  </section>
+
+  <script src="main.js"></script>
+  <script src="dynamic-data.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+/* .input {
+  border-radius: 25px;
+  padding: 5px 10px;
+} */
+ /* .classe  */
+/* .button {
+  padding: 10px 25px;
+  border-radius: 25px;
+  background-color: #e2E2E2;
+  box-shadow: none;
+  cursor: pointer;
+  transition: background-color 1s;
+}
+
+.button:hover {
+  background-color: white;
+} */
+
+.container {
+  margin-top: 25px;
+}
+
+.todo-container {
+  display: flex;
+}
+
+.todo-container button {
+  margin-left: 20px;
+}
+
+.todo-search-container {
+  margin-top: 15px;
+}
+
+.dynamic-todo-form {
+  display: flex;
+}
+
+ /* #identifiant doit s'utiliser une seule fois sur un element HTML  */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+#todo-list li {
+  background-color: #e2e2e2;
+  border-bottom: 1px solid grey;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#todo-list li:last-child {
+  border: none;
+}

@@ -1,0 +1,4 @@
+/mongodata
+.vscode
+node_modules
+.env
